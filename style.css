@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Ysabeau', sans-serif;
+
 }
 nav {
   display: flex;
@@ -27,13 +28,13 @@ nav button {
   border: none;
 }
 nav button i {
-  font-size: 24px;
+  font-size: 26px;
   cursor: pointer;
   color: #434343;
   transition: 0.5s;
 }
 nav button i:hover {
-  font-size: 28px;
+  font-size: 32px;
 }
 header {
   height: 350px;

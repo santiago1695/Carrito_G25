@@ -23,7 +23,7 @@ carToggle.addEventListener('click', () => {
   //* Cuando NO tiene la clase nav__car__visible, la agrega. Si se le da click nuevamente y detecta la clase, la retira.
 })
 
-//! Vamos a crear una función que contenga y que ejecute todos los Listeners al inicio de la carga del código.
+
 eventListenersLoader()
 
 function eventListenersLoader() {
@@ -157,6 +157,7 @@ function carElementsHTML(){
       </div>
       <hr>
     `;
+    
     // appendChild permite insertar elementos al DOM, muy similar a innerHTML
     carList.appendChild(div);
   })
@@ -175,7 +176,7 @@ function deleteProduct(event){
     carElementsHTML()
   }
 }
-//* Vaciar el carrito completo
+//* Vaciar el carrito completo con el profe
 function emptyCar() {
   carProducts = [];
   carElementsHTML();
@@ -267,18 +268,3 @@ function modalHTML() {
 
 }
 
-//* Local Storage
-
-// Guardar información en local storage
-// localStorage.setItem("apellido", "Betancur")
-
-// //console.log(localStorage.getItem("apellido"))
-
-// const usuario = {
-//   name: 'Alejandro',
-//   age: 31
-// }
-// localStorage.setItem('usuario', JSON.stringify(usuario))
-
-// const usuarioLocal = localStorage.getItem('usuario')
-// console.log(JSON.parse(usuarioLocal))
